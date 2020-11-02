@@ -1,0 +1,25 @@
+nombre = "Antony"
+
+print(nombre)
+# LOS SLICES SON COMO UN CORTE 
+# AQUI ESTAMOS CONTANDO Y CORTANDO APARTIR DE 0 HASTA LA LETRA Nº 4
+print(nombre[0:4])
+
+# CUANDO NO LE PONEMOS NADA PYTHON LO TOMA COMO 0
+print(nombre[:3])
+
+# AQUI COMIENZA DESDE EL TERCERA LETRA
+print(nombre[3:])
+
+# AQUI EMPIEZA DESDE LA LETRA 1 
+print(nombre[1:5])
+
+print(nombre[1:4:2])
+# AQUI SI NO PONEMOS NADA PYTHON LO TOMA COMO 0
+print(nombre[::])
+
+# ESTA MANERA RETROCEDE DE MANERA INVERSA 
+print(nombre[::-1])
+
+# EMPIEZA DESDE EL NUMERO 1 PERO SE VA DE 3 EN 3
+print(nombre[1::3])
