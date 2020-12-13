@@ -18,7 +18,11 @@ def saludar():
 
 saludar()
 
-# # HACIENDO LA TABLA DE MULTIPLICACION CON FUNCIONES Y FOR
+#-----------------------------------------------------------------------------------------------------------------
+#                                    FUNCION DE TABLA DE MULTIPLICACION
+#-----------------------------------------------------------------------------------------------------------------
+
+
 
 def tabla_del_5():
     for i in range(5):
@@ -54,7 +58,10 @@ def table_del_10():
 
 table_del_10()
 
-# # EJERCICIOS DE FUNCIONES CON PRINT
+
+#-----------------------------------------------------------------------------------------------------------------
+#                                    FUNCIONES CON RETORNO
+#-----------------------------------------------------------------------------------------------------------------
 
 def prueba():
     a=10
@@ -73,24 +80,31 @@ def testi():
 
 testi()
 
-# RETORNANDO VALORES CON FUNCIONES
+#-----------------------------------------------------------------------------------------------------------------
+#                                    FUNCIONES CON RETORNO
+#-----------------------------------------------------------------------------------------------------------------
+
 
 def funcion():
+
     return "Este testo esta imprimido con return"
 
 print(funcion())
 
 def funcion1():
+
     return [1,2,3,4,5]
 
 print(funcion1())
 
 def funcional():
+
     return "Mensaje numero 1", 1994,[1,2,3]
 
 print(funcional())
 
 def funcionel():
+    
     return "mensaje de python"
 
 print(funcionel())
